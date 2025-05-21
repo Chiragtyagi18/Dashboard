@@ -75,17 +75,21 @@ const Dashboard: React.FC<DashboardProps> = ({ currentTab, searchQuery }) => {
                       <TableCell>
                         <Button variant="outline">View</Button>
                       </TableCell>
-                      <TableCell>
-  <span
-    className="group relative cursor-pointer"
-    aria-label="View on Wikipedia"
-  >
-    <Globe className="w-5 h-5 text-blue-500 group-hover:text-blue-700 transition-colors" />
+                     <TableCell>
+  <span className="group relative cursor-pointer" aria-label="View on Wikipedia">
+    <a
+      href={`https://en.wikipedia.org/wiki/${encodeURIComponent(item.title)}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Globe className="w-5 h-5 text-blue-500 group-hover:text-blue-700 transition-colors" />
+    </a>
     <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-1 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
       View on Wikipedia
     </span>
   </span>
 </TableCell>
+
 
                     </TableRow>
                   ))}
