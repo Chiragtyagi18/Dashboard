@@ -1,12 +1,7 @@
-import { Sidebar } from "@/components/ui/sidebar";
+// import { Sidebar } from "@/components/ui/sidebar"; 
+// import { SidebarItem } from "@/components/ui/sidebar-item"; 
 
-export function AppSidebar() {
-  return (
-    <Sidebar>
-      {/* Add your sidebar items here */}
-      <Sidebar.Item href="/dashboard">Dashboard</Sidebar.Item>
-      <Sidebar.Item href="/settings">Settings</Sidebar.Item>
-      {/* Add more items as needed */}
-    </Sidebar>
-  );
-}
+// <Sidebar>
+//   <SidebarItem label="Dashboard" />
+//   <SidebarItem label="Settings" />
+// </Sidebar>
