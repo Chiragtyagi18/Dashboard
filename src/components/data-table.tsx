@@ -1,8 +1,8 @@
-import { DataTable } from "@/components/ui/data-table";
-import data from "../data/data.json";
+// import { DataTable } from "@/components/data-table"; 
+// import data from "../data/data.json";
 
-export function DashboardDataTable() {
-  return (
-    <DataTable data={data} />
-  );
-}
+// export function DashboardDataTable() {
+//   return (
+//     <DataTable data={data} />
+//   );
+// }
