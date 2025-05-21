@@ -1,4 +1,3 @@
-// src/components/Sidebar.tsx
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { ChevronDown, ChevronRight } from 'lucide-react';
@@ -11,7 +10,6 @@ const AppSidebar: React.FC = () => {
       <div className="p-6 text-2xl font-bold">Dashboard</div>
 
       <ul className="flex-1 px-4 space-y-2 text-sm">
-        {/* ARTICLES MAIN ITEM */}
         <li>
           <button
             className="w-full flex items-center justify-between px-3 py-2 hover:bg-gray-700 rounded text-left"
